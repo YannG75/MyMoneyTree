@@ -12,8 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4C09549C268E9DCC00A10779 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C09549B268E9DCC00A10779 /* File.swift */; };
+		4C09549E268EAD2F00A10779 /* OpenSSL.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C09549D268EAD2F00A10779 /* OpenSSL.xcframework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		82C2246CB443DEAE87A0FF6B /* libPods-MyMoneyTree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6C04471BC999CE6BE5F2CE /* libPods-MyMoneyTree.a */; };
+		8441E5B784CC4BA3956CA0D2 /* RifficFree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D765E781D4C74D3A94FD8224 /* RifficFree-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +42,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyMoneyTree/main.m; sourceTree = "<group>"; };
 		1B6C04471BC999CE6BE5F2CE /* libPods-MyMoneyTree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyMoneyTree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AAD63185A35F5F0A03BB70 /* Pods-MyMoneyTree-MyMoneyTreeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTree-MyMoneyTreeTests.debug.xcconfig"; path = "Target Support Files/Pods-MyMoneyTree-MyMoneyTreeTests/Pods-MyMoneyTree-MyMoneyTreeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C09549A268E9DCC00A10779 /* MyMoneyTree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMoneyTree-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C09549B268E9DCC00A10779 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		4C09549D268EAD2F00A10779 /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
 		63294D6F8C1567754B467E20 /* Pods-MyMoneyTree-MyMoneyTreeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTree-MyMoneyTreeTests.release.xcconfig"; path = "Target Support Files/Pods-MyMoneyTree-MyMoneyTreeTests/Pods-MyMoneyTree-MyMoneyTreeTests.release.xcconfig"; sourceTree = "<group>"; };
 		72F0F5233FBE79782030546F /* Pods-MyMoneyTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTree.release.xcconfig"; path = "Target Support Files/Pods-MyMoneyTree/Pods-MyMoneyTree.release.xcconfig"; sourceTree = "<group>"; };
 		7777C2FB5E0AB35A751A2F42 /* Pods-MyMoneyTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMoneyTree.debug.xcconfig"; path = "Target Support Files/Pods-MyMoneyTree/Pods-MyMoneyTree.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyMoneyTree/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D765E781D4C74D3A94FD8224 /* RifficFree-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RifficFree-Bold.ttf"; path = "../src/assets/fonts/RifficFree-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C09549E268EAD2F00A10779 /* OpenSSL.xcframework in Frameworks */,
 				82C2246CB443DEAE87A0FF6B /* libPods-MyMoneyTree.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +100,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				4C09549B268E9DCC00A10779 /* File.swift */,
+				4C09549A268E9DCC00A10779 /* MyMoneyTree-Bridging-Header.h */,
 			);
 			name = MyMoneyTree;
 			sourceTree = "<group>";
@@ -99,6 +109,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C09549D268EAD2F00A10779 /* OpenSSL.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				1B6C04471BC999CE6BE5F2CE /* libPods-MyMoneyTree.a */,
 				0ABA9DCE3573347CA491F086 /* libPods-MyMoneyTree-MyMoneyTreeTests.a */,
@@ -114,8 +125,15 @@
 				37AAD63185A35F5F0A03BB70 /* Pods-MyMoneyTree-MyMoneyTreeTests.debug.xcconfig */,
 				63294D6F8C1567754B467E20 /* Pods-MyMoneyTree-MyMoneyTreeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E6102EF27894AFB8BBA03C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D765E781D4C74D3A94FD8224 /* RifficFree-Bold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -134,6 +152,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4EACEAC87AC0A1E5EE25FA06 /* Pods */,
+				7E6102EF27894AFB8BBA03C1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -201,14 +220,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -245,6 +264,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8441E5B784CC4BA3956CA0D2 /* RifficFree-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +365,7 @@
 		};
 		D806790EFF340761D65B55B5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -355,7 +375,7 @@
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyMoneyTree/Pods-MyMoneyTree-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMoneyTree/Pods-MyMoneyTree-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -412,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				4C09549C268E9DCC00A10779 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,13 +452,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37AAD63185A35F5F0A03BB70 /* Pods-MyMoneyTree-MyMoneyTreeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MyMoneyTreeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,10 +480,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63294D6F8C1567754B467E20 /* Pods-MyMoneyTree-MyMoneyTreeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = MyMoneyTreeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,6 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MyMoneyTree;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMoneyTree-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,6 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MyMoneyTree;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMoneyTree-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -561,6 +586,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -577,7 +603,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -626,6 +652,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -635,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
